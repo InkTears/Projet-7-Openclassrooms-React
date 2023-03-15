@@ -1,0 +1,24 @@
+.home_gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 25px;
+    width: 95%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1230px) {
+    .home_gallery {
+        gap: 25px;
+        padding: 25px 15px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .home_gallery {
+        width: 100%;
+    }
+}

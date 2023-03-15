@@ -1,0 +1,12 @@
+.about_main {
+    width: 95%;
+    margin: 0 auto;
+}
+.about_main_collapse {
+    margin: 40px auto;
+}
+@media screen and (max-width: 550px) {
+    .about_main_collapse {
+        margin: 20px auto;
+    }
+}
